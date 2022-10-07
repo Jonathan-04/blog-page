@@ -1,0 +1,85 @@
+.container-recent-blogs{
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.title-container-recent{
+    position: absolute;
+}
+
+.first-recent-blog, .second-recent-blog{
+    margin-top: 64px;
+}
+
+.first-recent-blog{
+    width: 49%;
+    height: 100%;
+}
+
+.first-recent-blog .item-card .image-card img{
+    width: 100%;
+}
+
+.second-recent-blog{
+    width: 49%;
+}
+
+.second-recent-blog .item-card{
+    display: flex;
+    margin-bottom: 42px;
+    width: 100%;
+}
+
+.second-recent-blog .item-card .image-card{
+    margin-right: 20px;
+}
+
+.second-recent-blog .item-card .image-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.second-recent-blog .item-card .text-title-card{
+    font-size: 18px;
+}
+
+@media (max-width: 564px){
+
+    .first-recent-blog{
+        width: 100%;
+    }
+
+    .first-recent-blog .item-card .image-card img{
+        width: 100%;
+    }
+
+    .second-recent-blog{
+        width: 100%;
+    }
+
+    .second-recent-blog .item-card{
+        flex-direction: column;
+    }
+
+    .second-recent-blog .item-card .image-card{
+        margin-right: 0px;
+    }
+
+    .second-recent-blog .item-card .image-card img{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+

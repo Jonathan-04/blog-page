@@ -1,0 +1,24 @@
+.container-all-blog{
+    width: 90%;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 34px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-all-blog{
+    position: absolute;
+}
+
+.container-items-cards{
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 564px){
+
+}
